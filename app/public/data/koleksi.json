@@ -1,10 +1,82 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Mie Ayam bu Nur",
+    "kategori": "Makanan Berat",
+    "alamat": "Jl. Airan Raya",
+    "hargaRataRata": 12000,
+    "jamBuka": "09.00-22.00"
+  },
+  {
+    "id": "2",
+    "judul": "Nasi Goreng Bakso",
+    "kategori": "Makanan Berat",
+    "alamat": "Jl. Belwis",
+    "hargaRataRata": 13000,
+    "jamBuka": "17.00-24.00"
+  },
+  {
+    "id": "3",
+    "judul": "Jus Buah",
+    "kategori": "Minuman",
+    "alamat": "Jl. Pemda",
+    "hargaRataRata": 5000,
+    "jamBuka": "09.00-22.00"
+  },
+  {
+    "id": "4",
+    "judul": "Es Teh Segar",
+    "kategori": "Minuman",
+    "alamat": "Jl. Airan Raya",
+    "hargaRataRata": 5000,
+    "jamBuka": "08.00-22.00"
+  },
+  {
+    "id": "5",
+    "judul": "Gorengan",
+    "kategori": "Makanan Berat",
+    "alamat": "Jl. Belwis",
+    "hargaRataRata": 12000,
+    "jamBuka": "09.00-22.00"
+  },
+  {
+    "id": "6",
+    "judul": "Donat Lumer",
+    "kategori": "Camilan",
+    "alamat": "Jl. Airan Raya",
+    "hargaRataRata": 10000,
+    "jamBuka": "07.00-10.00"
+  },
+  {
+    "id": "7",
+    "judul": "Nasi Katsu",
+    "kategori": "Makanan Berat",
+    "alamat": "Kantin Itera",
+    "hargaRataRata": 15000,
+    "jamBuka": "09.00-22.00"
+  },
+  {
+    "id": "8",
+    "judul": "Bakso Bu Santi",
+    "kategori": "Makanan Berat",
+    "alamat": "Jl. Airan Raya",
+    "hargaRataRata": 12000,
+    "jamBuka": "09.00-22.00"
+  },
+  {
+    "id": "9",
+    "judul": "Nasi Kucing Angkringan",
+    "kategori": "Makanan Berat",
+    "alamat": "Jl. Belwis",
+    "hargaRataRata": 12000,
+    "jamBuka": "09.00-22.00"
+  },
+  {
+    "id": "10",
+    "judul": "Sate Padang",
+    "kategori": "Camilan",
+    "alamat": "Jl. Korpri",
+    "hargaRataRata": 20000,
+    "jamBuka": "17.00-23.00"
   }
 ]
