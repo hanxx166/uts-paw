@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import useLocalStorage from "../hooks/useLocalStorage";
 import { KoleksiContext } from "./koleksiContext";
 
-export default function KoleksiProvider({ children }) {
+export function KoleksiProvider({ children }) {
   const [items, setItems] = useLocalStorage("uts-paw-kuliner", null);
   const [loading, setLoading] = useState(items === null);
   const [error, setError] = useState(null);
