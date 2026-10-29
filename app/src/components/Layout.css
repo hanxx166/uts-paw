@@ -1,0 +1,105 @@
+.kerangka {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.kepala {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu a.active {
+  font-weight: 600;
+}
+
+.isi {
+  flex: 1;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.kaki {
+  padding: 1rem 1.5rem;
+  border-top: 1px solid #dcdcdc;
+  color: #57606a;
+  font-size: 0.9rem;
+}
+
+.aksi {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.isi dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.25rem 1rem;
+}
+
+.isi dt {
+  font-weight: 600;
+}
+
+.isi dd {
+  margin: 0;
+}
+
+.daftar-kartu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.kartu {
+  padding: 1rem;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+}
+
+.kartu h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.05rem;
+}
+
+.kartu p {
+  margin: 0;
+  color: #57606a;
+}
+
+.alat-koleksi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.alat-koleksi input,
+.alat-koleksi select {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #c4c4c4;
+  border-radius: 6px;
+  font: inherit;
+}
+
+@media (max-width: 768px) {
+  .kepala {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .daftar-kartu {
+    grid-template-columns: 1fr;
+  }
+}
