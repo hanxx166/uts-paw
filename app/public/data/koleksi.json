@@ -8,20 +8,20 @@
     "jamBuka": "09.00-22.00"
   },
   {
-    "id": "2",
-    "judul": "Nasi Goreng Bakso",
-    "kategori": "Makanan Berat",
-    "alamat": "Jl. Belwis",
-    "hargaRataRata": 13000,
-    "jamBuka": "17.00-24.00"
-  },
-  {
     "id": "3",
     "judul": "Jus Buah",
     "kategori": "Minuman",
     "alamat": "Jl. Pemda",
     "hargaRataRata": 5000,
     "jamBuka": "09.00-22.00"
+  },
+  {
+    "id": "2",
+    "judul": "Nasi Goreng Bakso",
+    "kategori": "Makanan Berat",
+    "alamat": "Jl. Belwis",
+    "hargaRataRata": 13000,
+    "jamBuka": "17.00-24.00"
   },
   {
     "id": "4",
@@ -34,9 +34,17 @@
   {
     "id": "5",
     "judul": "Gorengan",
-    "kategori": "Makanan Berat",
+    "kategori": "Camilan",
     "alamat": "Jl. Belwis",
     "hargaRataRata": 12000,
+    "jamBuka": "09.00-22.00"
+  },
+  {
+    "id": "7",
+    "judul": "Nasi Katsu",
+    "kategori": "Makanan Berat",
+    "alamat": "Kantin Itera",
+    "hargaRataRata": 15000,
     "jamBuka": "09.00-22.00"
   },
   {
@@ -46,14 +54,6 @@
     "alamat": "Jl. Airan Raya",
     "hargaRataRata": 10000,
     "jamBuka": "07.00-10.00"
-  },
-  {
-    "id": "7",
-    "judul": "Nasi Katsu",
-    "kategori": "Makanan Berat",
-    "alamat": "Kantin Itera",
-    "hargaRataRata": 15000,
-    "jamBuka": "09.00-22.00"
   },
   {
     "id": "8",
@@ -74,7 +74,7 @@
   {
     "id": "10",
     "judul": "Sate Padang",
-    "kategori": "Camilan",
+    "kategori": "Makanan Berat",
     "alamat": "Jl. Korpri",
     "hargaRataRata": 20000,
     "jamBuka": "17.00-23.00"
