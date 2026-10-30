@@ -1,0 +1,58 @@
+.formulir {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 480px;
+}
+
+.formulir label {
+  margin-top: 0.75rem;
+  font-weight: 600;
+  color: #24292f;
+}
+
+.formulir input,
+.formulir select {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #cababa;
+  border-radius: 6px;
+  font: inherit;
+  transition: border-color 0.3s;
+}
+
+.formulir input:focus,
+.formulir select:focus {
+  outline: none;
+  border-color: #62666a;
+  box-shadow: 0 0 0 3px rgba(9, 105, 218, 0.2);
+}
+
+.formulir [role="alert"] {
+  margin: 0;
+  color: #b42318;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.formulir button {
+  align-self: flex-start;
+  margin-top: 1rem;
+  padding: 0.6rem 1.5rem;
+  border: 0;
+  border-radius: 6px;
+  background: #1f2328;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formulir button:hover {
+  background: #1b7e78;
+}
+
+@media (max-width: 480px) {
+  .formulir button {
+    align-self: stretch;
+  }
+}
