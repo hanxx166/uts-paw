@@ -7,7 +7,7 @@ export default function Koleksi() {
   const { items, loading, error } = useKoleksi();
 
   const [cari, setCari] = useState("");
-  const [kategori, setKategori] = useState("semua");
+  const [kategori, setKategori] = useState("Semua");
 
   if (loading) return <p>Memuat data kuliner...</p>;
   if (error) return <p role="alert">Gagal memuat: {error}</p>;
