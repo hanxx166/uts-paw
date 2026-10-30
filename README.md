@@ -71,7 +71,7 @@ Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Ke
 **Tema:** Direktori Kuliner Sekitar Kampus  
 **Deployment:** https://hanxx166.github.io/uts-paw/
 
-![Tangkapan layar beranda](docs/beranda.png)
+![Tangkapan layar beranda](/app/src/docs/Beranda.png)
 
 ## Fitur Utama
 
@@ -86,9 +86,7 @@ Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Ke
 
 Pastikan Node.js dan npm sudah terinstall, lalu jalankan perintah berikut:
 
-```bash
 cd app
 npm install
 npm run dev
-```
 ````
