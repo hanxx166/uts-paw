@@ -70,7 +70,7 @@ Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Ke
 **Tema:** Direktori Kuliner Sekitar Kampus
 **Deployment:** https://hanxx166.github.io/uts-paw/
 
-![Tangkapan layar beranda](app/src/docs/Beranda.png)
+![Tangkapan layar beranda](/app/src/docs/Beranda.png)
 
 ## Fitur Utama
 
