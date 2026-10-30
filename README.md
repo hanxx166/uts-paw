@@ -4,10 +4,10 @@ Repo induk Ujian Tengah Semester Pengembangan Aplikasi Web, Informatika ITERA, s
 
 **Soal, contoh kode, panduan, rubrik, ketentuan, dan materi: https://uts-paw.mhabibalgifari.web.id**
 
-| Kelas | Dibuka | Tenggat |
-|---|---|---|
-| RA | Selasa, 27 Oktober 2026 pukul 08.00 WIB | Jumat, 30 Oktober 2026 pukul 23.59 WIB |
-| RB | Kamis, 29 Oktober 2026 pukul 13.00 WIB | Minggu, 1 November 2026 pukul 23.59 WIB |
+| Kelas | Dibuka                                  | Tenggat                                 |
+| ----- | --------------------------------------- | --------------------------------------- |
+| RA    | Selasa, 27 Oktober 2026 pukul 08.00 WIB | Jumat, 30 Oktober 2026 pukul 23.59 WIB  |
+| RB    | Kamis, 29 Oktober 2026 pukul 13.00 WIB  | Minggu, 1 November 2026 pukul 23.59 WIB |
 
 Hanya mahasiswa yang terdaftar di data kelas RA dan RB yang dinilai. AI generatif dilarang; baca [Ketentuan](https://uts-paw.mhabibalgifari.web.id/ketentuan) sebelum mulai.
 
@@ -47,14 +47,14 @@ Panduan lengkap beserta solusi kendala umum ada di halaman [Panduan](https://uts
 
 ## Isi repo
 
-| Folder | Isi | Boleh diubah mahasiswa |
-|---|---|---|
-| `app/` | Starter aplikasi React yang kamu kerjakan | Ya |
-| `portal/` | Situs soal dan panduan (domain ujian) | Tidak |
-| `grader/` | Pemeriksa rubrik otomatis | Tidak |
-| `shared/uts.json` | Jadwal kelas, tema, rubrik, dan pemeriksaan integritas | Tidak |
-| `shared/contoh/` | Contoh kode yang ditampilkan di halaman Contoh Kode | Tidak |
-| `.github/workflows/` | Build, deploy, dan cek otomatis | Tidak |
+| Folder               | Isi                                                    | Boleh diubah mahasiswa |
+| -------------------- | ------------------------------------------------------ | ---------------------- |
+| `app/`               | Starter aplikasi React yang kamu kerjakan              | Ya                     |
+| `portal/`            | Situs soal dan panduan (domain ujian)                  | Tidak                  |
+| `grader/`            | Pemeriksa rubrik otomatis                              | Tidak                  |
+| `shared/uts.json`    | Jadwal kelas, tema, rubrik, dan pemeriksaan integritas | Tidak                  |
+| `shared/contoh/`     | Contoh kode yang ditampilkan di halaman Contoh Kode    | Tidak                  |
+| `.github/workflows/` | Build, deploy, dan cek otomatis                        | Tidak                  |
 
 Penilaian akhir selalu memakai `grader/` dan `shared/` versi repo induk, jadi mengubahnya di fork tidak berpengaruh.
 
@@ -62,28 +62,33 @@ Penilaian akhir selalu memakai `grader/` dan `shared/` versi repo induk, jadi me
 
 Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Kerangka berikut boleh dipakai:
 
-```markdown
-# Nama Aplikasi
+````markdown
+# Direktori Kuliner Sekitar Kampus
 
-Nama: ...
-NIM: ...
-Kelas: ...
-Tema: ...
-Deployment: https://USERNAME.github.io/uts-paw/
+**Nama:** Erhan Kurniawan  
+**NIM:** 124140217  
+**Kelas:** RA  
+**Tema:** Direktori Kuliner Sekitar Kampus  
+**Deployment:** https://hanxx166.github.io/uts-paw/
 
 ![Tangkapan layar beranda](docs/beranda.png)
 
-## Fitur
+## Fitur Utama
 
-- ...
+- **Beranda Interaktif:** Menampilkan ringkasan jumlah kuliner dan kategori secara real-time dari Context API.
+- **Pencarian & Filter Dinamis:** Kolom pencarian berbasis `type="search"` dan filter kategori dropdown yang bekerja secara instan tanpa reload halaman.
+- **Manajemen Data Lengkap:** Form tambah kuliner terkontrol dengan validasi manual, serta fitur hapus item dengan konfirmasi dialog.
+- **Statistik Otomatis:** Tabel rekapitulasi jumlah kuliner per kategori yang dihitung menggunakan metode array modern (`reduce`).
+- **Navigasi SPA Mulus:** Routing dinamis menggunakan React Router dengan penanganan halaman 404 custom.
+- **Responsif Penuh:** Tata letak grid dan flexbox yang beradaptasi sempurna di perangkat desktop maupun mobile.
 
-## Menjalankan secara lokal
+## Menjalankan Secara Lokal
 
+Pastikan Node.js dan npm sudah terinstall, lalu jalankan perintah berikut:
+
+```bash
 cd app
 npm install
 npm run dev
-
-## Konsep React yang dipakai
-
-- ...
 ```
+````
