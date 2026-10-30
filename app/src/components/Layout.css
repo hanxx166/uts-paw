@@ -4,6 +4,18 @@
   min-height: 100vh;
 }
 
+#header-utama {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+#navigasi-utama {
+  background-color: transparent;
+}
+
+#footer-utama {
+  font-style: italic;
+}
+
 .kepala {
   display: flex;
   justify-content: space-between;
@@ -16,8 +28,9 @@
   gap: 1rem;
 }
 
-.menu a.active {
+.menu a.tautan-aktif {
   font-weight: 600;
+  color: #0969da;
 }
 
 .isi {
@@ -91,6 +104,15 @@
   border: 1px solid #c4c4c4;
   border-radius: 6px;
   font: inherit;
+}
+
+.judul-aplikasi::before {
+  content: "️ ";
+  margin-right: 0.25rem;
+}
+
+.alat-koleksi input::placeholder {
+  color: #8b949e;
 }
 
 @media (max-width: 768px) {
