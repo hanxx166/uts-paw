@@ -64,11 +64,11 @@ Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Ke
 
 # Direktori Kuliner Sekitar Kampus
 
-**Nama:** Erhan Kurniawan
-**NIM:** 124140217
-**Kelas:** RA
-**Tema:** Direktori Kuliner Sekitar Kampus
-**Deployment:** https://hanxx166.github.io/uts-paw/
+**Nama:** Erhan Kurniawan  
+**NIM:** 124140217  
+**Kelas:** RA  
+**Tema:** Direktori Kuliner Sekitar Kampus  
+**Deployment:** https://hanxx166.github.io/uts-paw/  
 
 ![Tangkapan layar beranda](/app/src/docs/Beranda.png)
 
