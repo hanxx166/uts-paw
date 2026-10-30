@@ -4,16 +4,22 @@ import useKoleksi from "../hooks/useKoleksi.js";
 export default function Detail() {
   const { id } = useParams();
   const navigate = useNavigate();
-  const { items, loading, error } = useKoleksi();
+  const { items, loading, error, hapus } = useKoleksi();
 
   const item = items.find((i) => String(i.id) === id);
 
   if (loading) return <p>Memuat data kuliner...</p>;
+
+  if (error) return <p role="alert">Gagal memuat: {error}</p>;
+
   if (!item) {
     return (
       <section>
         <h1>Kuliner tidak ditemukan</h1>
         <p>Maaf, data kuliner yang kamu cari tidak ada dalam direktori kami.</p>
+        <Link to="/koleksi" style={{ textDecoration: "underline" }}>
+          Kembali ke daftar koleksi
+        </Link>
       </section>
     );
   }
@@ -71,7 +77,7 @@ export default function Detail() {
             border: "1px solid #d0d7de",
           }}
         >
-          ← Kembali
+          Kembali
         </Link>
       </div>
     </section>
