@@ -5,7 +5,7 @@ import "./Tambah.css";
 
 const AWAL = {
   judul: "",
-  kategori: "",
+  kategori: "Makanan Berat",
   alamat: "",
   hargaRataRata: "",
   jamBuka: "",
@@ -59,17 +59,6 @@ export default function Tambah() {
         value={form.kategori}
         onChange={ubah}
       >
-        <option>Kuliah</option>
-        <option>Organisasi</option>
-      </select>
-
-      <label htmlFor="kategori">Kategori</label>
-      <select
-        id="kategori"
-        name="kategori"
-        value={form.kategori}
-        onChange={ubah}
-      >
         <option value="Makanan Berat">Makanan Berat</option>
         <option value="Minuman">Minuman</option>
         <option value="Camilan">Camilan</option>
@@ -85,13 +74,13 @@ export default function Tambah() {
         placeholder="Contoh: Jl. Airan Raya"
       />
 
-      <label htmlFor="hargaRata">Harga rata-rata</label>
+      <label htmlFor="hargaRataRata">Harga rata-rata</label>
       <input
-        id="hargaRata"
-        name="hargaRata"
+        id="hargaRataRata"
+        name="hargaRataRata"
         type="number"
         min="0"
-        value={form.hargaRata}
+        value={form.hargaRataRata}
         onChange={ubah}
         placeholder="Contoh: 10000"
       />
@@ -102,7 +91,7 @@ export default function Tambah() {
         name="jamBuka"
         value={form.jamBuka}
         onChange={ubah}
-        placeholder="Contoh: 0.9.00-22.00"
+        placeholder="Contoh: 09.00-22.00"
       />
 
       <button type="submit">Simpan</button>
