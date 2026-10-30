@@ -65,22 +65,22 @@ Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Ke
 ````markdown
 # Direktori Kuliner Sekitar Kampus
 
-**Nama:** Erhan Kurniawan  
-**NIM:** 124140217  
-**Kelas:** RA  
-**Tema:** Direktori Kuliner Sekitar Kampus  
-**Deployment:** https://hanxx166.github.io/uts-paw/
+Nama: Erhan Kurniawan  
+NIM: 124140217  
+Kelas: RA  
+Tema: Direktori Kuliner Sekitar Kampus  
+Deployment: https://hanxx166.github.io/uts-paw/
 
 ![Tangkapan layar beranda](/app/src/docs/Beranda.png)
 
 ## Fitur Utama
 
-- **Beranda Interaktif:** Menampilkan ringkasan jumlah kuliner dan kategori secara real-time dari Context API.
-- **Pencarian & Filter Dinamis:** Kolom pencarian berbasis `type="search"` dan filter kategori dropdown yang bekerja secara instan tanpa reload halaman.
-- **Manajemen Data Lengkap:** Form tambah kuliner terkontrol dengan validasi manual, serta fitur hapus item dengan konfirmasi dialog.
-- **Statistik Otomatis:** Tabel rekapitulasi jumlah kuliner per kategori yang dihitung menggunakan metode array modern (`reduce`).
-- **Navigasi SPA Mulus:** Routing dinamis menggunakan React Router dengan penanganan halaman 404 custom.
-- **Responsif Penuh:** Tata letak grid dan flexbox yang beradaptasi sempurna di perangkat desktop maupun mobile.
+- Beranda Interaktif: Menampilkan ringkasan jumlah kuliner dan kategori secara real-time dari Context API.
+- Pencarian & Filter Dinamis: Kolom pencarian berbasis `type="search"` dan filter kategori dropdown yang bekerja secara instan tanpa reload halaman.
+- Manajemen Data Lengkap: Form tambah kuliner terkontrol dengan validasi manual, serta fitur hapus item dengan konfirmasi dialog.
+- Statistik Otomatis: Tabel rekapitulasi jumlah kuliner per kategori yang dihitung menggunakan metode array modern (`reduce`).
+- Navigasi SPA Mulus: Routing dinamis menggunakan React Router dengan penanganan halaman 404 custom.
+- Responsif Penuh: Tata letak grid dan flexbox yang beradaptasi sempurna di perangkat desktop maupun mobile.
 
 ## Menjalankan Secara Lokal
 
