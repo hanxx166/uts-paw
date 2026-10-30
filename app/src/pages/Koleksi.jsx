@@ -14,7 +14,7 @@ export default function Koleksi() {
 
   const daftarKategori = [
     "Semua",
-    ...new Set(items.map((item) => item.kategori)),
+    ...new Set(items.map((item) => item.kategori).filter(Boolean)),
   ];
 
   const tampil = items.filter(
