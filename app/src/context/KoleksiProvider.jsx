@@ -16,8 +16,8 @@ export function KoleksiProvider({ children }) {
           throw new Error(`Gagal membuat data(status ${res.status})`);
         const data = await res.json();
         setItems(data);
-      } catch {
-        setError(error.message);
+      } catch (err) {
+        setError(err.message);
       } finally {
         setLoading(false);
       }
@@ -34,10 +34,10 @@ export function KoleksiProvider({ children }) {
 
   const hapus = (id) => {
     setItems((dataLama) =>
-      dataLama.filter((item) => String(item.id !== String(id))),
+      dataLama.filter((item) => String(item.id) !== String(id)),
     );
   };
-  
+
   return (
     <KoleksiContext.Provider
       value={{ items: items ?? [], loading, error, tambah, hapus }}
